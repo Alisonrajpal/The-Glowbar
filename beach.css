@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+* {
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+body {
+  margin: 50px 30px 50px 50px;
+  width: 95%;
+}
+header {
+  position: fixed;
+  width: 93%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #bc9e82;
+  padding: 20px;
+  color: #fff;
+}
+
+.nav-ul {
+  position: flex;
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-li {
+  display: inline;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+a {
+  color: black;
+  font-family: inherit;
+  font-size: 28px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 200ms ease;
+  text-decoration: underline;
+  color: #3ff11b;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebebe4c9;
+}
+.logo {
+  display: flex;
+  max-width: 100px;
+  max-height: 50%;
+}
+
+/*social media icons*/
+.fa {
+  color: white;
+  font-size: 24px;
+  border-right: 1px solid white;
+}
+span.icons {
+  font-size: 24px;
+  color: white;
+}
+/*button on first bar*/
+.con button {
+  width: 70px;
+  border: none;
+  box-shadow: 5px 5px 5px whitesmoke;
+  border-radius: 35px;
+  padding: 12px;
+  color: white;
+  background-color: #3ff11b;
+}
+.spacer {
+  height: 80px;
+}
+
+.clear {
+  clear: both;
+}
+/*about--section*/
+#about {
+  background-image: url("images/border.jfif");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding: 10px;
+  margin-top: 20px;
+}
+#service,
+form {
+  width: 500px;
+}
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  background-color: #bc9e82;
+  width: 98%;
+  height: 100px;
+}
+#home {
+  width: 97%;
+  margin-top: 125px;
+}
+
+#booking {
+  background-image: url("images/background_contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 98%;
+  height: 600px;
+}
+#booking-form {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  background-color: black;
+  color: #fff;
+  opacity: 0.5;
+}
+/*glow text*/
+/*glow text*/
+.glow {
+  text-align: center;
+  font-size: 44pt;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ffa500, 0 0 10px #ffa500, 0 0 98px #ffa500;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  margin-top: 20px;
+  margin-bottom: -60px;
+  animation: blink 4s infinite;
+  -webkit-animation: blink 3s infinite;
+  transition: smooth;
+  transition: 0.2em ease-in-out;
+}
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: rgb(17, 232, 17);
+    text-shadow: none;
+  }
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ffa500, 0 0 10px #ffa500, 0 0 98px #ffa500;
+    color: #fff6a9;
+  }
+}
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #191919;
+    text-shadow: none;
+  }
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ffa500, 0 0 10px #ffa500, 0 0 98px #ffa500;
+    color: #fff6a9;
+  }
+}
+
+span ~ i {
+  font-family: "Sacramento", cursive;
+}
+.benefits-list {
+  list-style-type: arrow;
+}
+.services-container {
+  width: 96.7%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.facial {
+  display: flex;
+  padding: 20px;
+  width: 300px;
+}
+.microneedling {
+  padding: 20px;
+  display: flex;
+  width: 300px;
+}
