@@ -15,9 +15,9 @@
 </head>
 <body>
     <div class="container-img">
-        <img src="">
+        <img src="images/anne.jpg">
         <div class="img-info">
-            <h1>tfdghhsh</h1>
+            <h1>About The Owner</h1>
         </div>
     </div>
 
