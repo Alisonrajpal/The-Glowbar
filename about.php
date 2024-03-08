@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container-img">
-        <img src="images/anne.jpg">
+        <img src="images/anne.jpg" class="hero">
         <div class="img-info">
             <h1>About The Owner</h1>
         </div>
